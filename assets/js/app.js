@@ -17,7 +17,7 @@ const key = "ee97d14b9394ca29f9fc4adcca4350ca";
 let cityName = "tehran";
 let url;
 // test for first enter of client
-getInfo(`http://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=${key}&units=metric`)
+getInfo(`https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=${key}&units=metric`);
 // functions
 function submitData() {
     cityName = "";
