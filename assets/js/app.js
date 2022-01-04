@@ -24,7 +24,7 @@ function submitData() {
     cityName = input.value;
     box.style.display = "none";
     console.log(cityName);
-    url = `http://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=${key}&units=metric`;
+    url = `https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=${key}&units=metric`;
     getInfo(url);
     input.value = "";
 };
